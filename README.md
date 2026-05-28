@@ -15,7 +15,7 @@ Clone funcional do Twitter com tema voltado a psicologia e saude mental.
 
 ## Tecnologias
 
-- Backend: Python, Django, Django REST Framework, Simple JWT e SQLite.
+- Backend: Python, Django, Django REST Framework.
 - Frontend: React, React Router e Vite.
 
 ## Como rodar localmente
@@ -30,8 +30,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-A API fica em `http://localhost:8000`.
-
 ### Frontend
 
 ```bash
@@ -39,10 +37,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
-O app fica em `http://localhost:5173`.
-
-Crie ou mantenha o arquivo `frontend/.env`:
 
 ```env
 VITE_API_URL=http://localhost:8000
@@ -65,11 +59,5 @@ npm run build
 
 ## Deploy
 
-- Frontend: Vercel ou Netlify, configurando `VITE_API_URL` com a URL publica do backend.
-- Backend: Render, Railway ou PythonAnywhere, com `ALLOWED_HOSTS` e variaveis de ambiente ajustadas.
-- Banco: SQLite funciona localmente; para producao, PostgreSQL e recomendado.
-
-Depois do deploy, inclua aqui:
-
-- Link do GitHub: `adicione-o-aqui`
+- Link do GitHub: https://github.com/Rodrigo-GitHb/PsicoNet
 - Link do deploy: `adicione-o-aqui`
