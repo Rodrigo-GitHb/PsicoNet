@@ -13,17 +13,17 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get("DJANGO_DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = [
-    "SEU_USUARIO.pythonanywhere.com",
+    "rodrigodev.pythonanywhere.com",
     "localhost",
     "127.0.0.1",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://SEU_USUARIO.pythonanywhere.com",
+    "https://rodrigodev.pythonanywhere.com",
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://SEU_USUARIO.pythonanywhere.com",
+    "https://rodrigodev.pythonanywhere.com",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
